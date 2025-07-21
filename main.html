@@ -2,6 +2,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ตู้คีบความรัก 💖</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -30,22 +31,24 @@
     }
   }
   </style>
-  <h1>ตู้คีบความรัก💘</h1>
-  <div class="machine">
-    <div class="claw"></div>
-    <div class="dolls" id="doll-area">
-      <img src="image/ew.jpg" class="doll" style="left: 3%;" />
-      <img src="image/flag.jpg" class="doll" style="left: 25%;" />
-      <img src="image/nerd.jpg" class="doll" style="left: 48%;" />
-      <img src="image/glass.jpg" class="doll" style="left: 70%;" />
-      <img src="image/kid.jpg" class="doll secret" style="left: 50%; display: none;" />
-
+  <audio id="anniversary-audio" src="audio/song.mp3"></audio>
+  <div class="container">
+    <h1>ตู้คีบความรัก💘</h1>
+    <div class="machine" id="machine">
+      <div class="claw" id="claw"></div>
+      <div class="dolls" id="doll-area">
+        <img src="image/ew.jpg" class="doll" style="left: 3%;" />
+        <img src="image/flag.jpg" class="doll" style="left: 25%;" />
+        <img src="image/nerd.jpg" class="doll" style="left: 48%;" />
+        <img src="image/glass.jpg" class="doll" style="left: 70%;" />
+        <img src="image/kid.jpg" class="doll secret" style="left: 50%; display: none;" />
+      </div>
     </div>
-  </div>
-  <div class="controls">
-    <button onclick="moveClaw('left')">⬅️</button>
-    <button onclick="dropClaw()">🎯 คีบ!</button>
-    <button onclick="moveClaw('right')">➡️</button>
+    <div class="controls">
+      <button onclick="moveClaw('left')">⬅️</button>
+      <button onclick="dropClaw()">🎯 คีบ!</button>
+      <button onclick="moveClaw('right')">➡️</button>
+    </div>
   </div>
   <script src="script.js"></script>
   <script>
