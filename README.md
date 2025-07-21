@@ -7,7 +7,6 @@
 ## 🔗 Live Demo
 
 👉 [เล่นเกมที่นี่](https://your-username.github.io/claw-machine/)  
-*(ใส่ลิงก์ GitHub Pages ที่ deploy ไว้)*
 
 ---
 
@@ -20,13 +19,3 @@
 - 💖 สีชมพูน่ารัก เพราะเมียกูชอบสีชมพูจบนะ
 
 ---
-
-## 📂 Folder Structure
-claw-machine/
-├── index.html
-├── style.css 
-├── script.js # logic ของเกม
-├── images/ # โฟล์เดอร์เก็บรูป
-├── assets/ # โฟล์เดอร์เก็บไอ้ที่เกี่ยวๆ
-└── README.md 
-
